@@ -1,1 +1,1 @@
-# GIPHYAPISite
+# GIPHY API Site
