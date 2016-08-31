@@ -3,6 +3,9 @@
 Main Styles
 ================
 */
+body {
+	font-family: "short-stack", sans-serif;
+}
 header {
 	background-color: #FDCA40;
 	color: #DF2935;
