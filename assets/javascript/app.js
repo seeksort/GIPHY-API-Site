@@ -1,4 +1,4 @@
-var topics = ["Cowboy Bebop", "Trigun", "Pokemon", "Dragonball Z", "FLCL", "Ouran High School Host Club", "Fairy Tail", "Attack on Titan"];
+var topics = ["Cowboy Bebop", "Trigun", "Pokemon", "Dragonball Z", "FLCL", "Ouran High School Host Club", "Speed Racer", "Attack on Titan", "Kiki's Delivery Service"];
 var queryUrl = "https://api.giphy.com/v1/gifs/search";
 var apiKey = "dc6zaTOxFJmzC";
 var searchData;
@@ -32,7 +32,7 @@ $("#btnSubmit").on("click", function(){
 });
 
 // Listener: When button clicked, run ajax call, add attributes and still/animate URLs to GIFs and pipe them out to body
-$(".btn-anime").on("click", function() {
+$(document.body).on("click", ".btn-anime", function() {
 	searchData = {
 		q: $(this).html(),
 		"api_key": apiKey,
