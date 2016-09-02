@@ -1,42 +1,18 @@
 /*
 ================
-Main Styles
+Main & Title Styles
 ================
 */
 body {
 	font-family: "short-stack", sans-serif;
 }
 header {
-	background-color: #FDCA40;
-	color: #DF2935;
-
+    background: #FDCA40;
+    color: #DF2935;
 }
-.row-form {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #3772FF;
-	color: #FDCA40;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
-}
-.btn-submit {
-	background-color: #FDCA40;
-	color: #DF2935;
-}
-.btn-submit:hover{
-	background-color: #FDDD00;
-	color: #DF2935;
-}
-.btn-submit:focus{
-	background-color: #FDEE99;
-	color: #DF2935;
-}
-/*
-================
-Title Styles
-================
-*/
 h1 {
-  font-size: 4em;
+  font-family: 'Nunito', sans-serif;
+  font-size: 4.5em;
   -webkit-text-stroke: 2px #DF2935;
   -webkit-text-fill-color: #E6E8E6;
   text-shadow: 0 1px 0 #DF2935,
@@ -121,6 +97,7 @@ h1 {
   animation-name: tada;
 }
 
+
 /*
 ================
 Buttons Section
@@ -141,7 +118,32 @@ Buttons Section
 }
 .row-buttons {
 	min-height: 100px;
-	background-color: #FDCA40;
+    background: #FDCA40;
+}
+
+/*
+================
+Form Styles
+================
+*/
+.row-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #3772FF;
+    color: #FDCA40;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+.btn-submit {
+    background-color: #FDCA40;
+    color: #DF2935;
+}
+.btn-submit:hover{
+    background-color: #FDDD00;
+    color: #DF2935;
+}
+.btn-submit:focus{
+    background-color: #FDEE99;
+    color: #DF2935;
 }
 
 /*
